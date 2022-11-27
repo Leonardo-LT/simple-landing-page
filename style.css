@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: "Roboto", "arial";
+
+    display: flex;
+    flex-direction: column;
+}
+
+nav, .first-section {
+    color: #F9FaF8;
+    display: flex;
+    background-color: #121420;
+    font-size: 18px;
+    padding: 0 18%;
+
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.first-section {
+    padding-bottom: 18px;
+
+    align-items: center;
+    gap: 40px;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.info {
+    background-color: #6674A3;
+    padding: 0 18%;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.verstappens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.cardstappen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-text.card-text {
+    text-align: center;
+}
+
+.info-img {
+    width: 60%;
+    
+}
+
+.quote {
+    background-color: #FFEA00;
+    padding: 4% 18%;
+}
+
+.quote-name {
+    text-align: right;
+}
+
+.footer {
+    background-color: #1B2b5A;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: none;
+    
+    display: flex;
+    gap: 0 18px;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+button, .sign-up {
+    background-color: #FF0026;
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px solid #FFEA00;
+    color: #F9FaF8;
+    font-weight: bold;
+
+    align-self: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.sign-up {
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding: 1% 4%;
+    width: 80%;
+    height: 5%;
+    color: #F9FaF8;
+    background-color: #121420;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-header {
+    padding: 0;
+}
+
+.info-img{
+    border: 3px solid #FF0026;
+    border-radius: 10px;
+}
+
+.first-section-img {
+    width: 800px;
+    height: 200px;
+}
+
+.footer {
+    text-align: center;
+    padding: 1% 0;
+    color: #F9FaF8;
+    font-weight: bold
+}
